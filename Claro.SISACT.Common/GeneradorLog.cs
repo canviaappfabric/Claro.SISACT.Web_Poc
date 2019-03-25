@@ -23,6 +23,7 @@ namespace Claro.SISACT.Common
 
         public void CrearArchivolog(string evento, List<String> lstLog, Exception objException)
         {
+
             if (objException == null)
                 _loggerManager.Info(evento);
             else
