@@ -10,7 +10,7 @@ namespace Claro.SISACT.Web_Poc.Base
         protected override void OnInit(EventArgs e)
         {
             var childPage = this.GetType().UnderlyingSystemType;
-            Constantes.NombrePagina = childPage;
+            Constantes.NombrePagina = Convert.ToString(childPage.Name);
 
         }
     }

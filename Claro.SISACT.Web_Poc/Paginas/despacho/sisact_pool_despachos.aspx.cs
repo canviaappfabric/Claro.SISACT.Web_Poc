@@ -5,10 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Claro.SISACT.Common;
+using Claro.SISACT.Web_Poc.Base;
 
 namespace Claro.SISACT.Web_Poc.Paginas.despacho
 {
-    public partial class sisact_pool_despachos : System.Web.UI.Page
+    public partial class sisact_pool_despachos : Sisact_Webbase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
