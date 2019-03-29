@@ -8,6 +8,6 @@ namespace Claro.SISACT.Common
 {
     public class Constantes
     {
-        public static  string  nombrePagina {get;set;}
+        public static  Type  NombrePagina {get;set;}
     }
 }

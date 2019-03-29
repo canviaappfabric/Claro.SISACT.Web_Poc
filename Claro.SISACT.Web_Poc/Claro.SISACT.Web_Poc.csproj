@@ -68,12 +68,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Paginas\despacho\sisact_despachos_consulta.aspx" />
+    <Content Include="Paginas\despacho\sisact_pool_despachos.aspx" />
     <Content Include="Paginas\documentos\sisact_declaracion_conocimiento.aspx" />
+    <Content Include="Paginas\documentos\sisact_pop_sustento_ingreso.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\Sisact Webbase.cs">
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\despacho\sisact_despachos_consulta.aspx.cs">
+      <DependentUpon>sisact_despachos_consulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\despacho\sisact_despachos_consulta.aspx.designer.cs">
+      <DependentUpon>sisact_despachos_consulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\despacho\sisact_pool_despachos.aspx.cs">
+      <DependentUpon>sisact_pool_despachos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\despacho\sisact_pool_despachos.aspx.designer.cs">
+      <DependentUpon>sisact_pool_despachos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\documentos\sisact_declaracion_conocimiento.aspx.cs">
       <DependentUpon>sisact_declaracion_conocimiento.aspx</DependentUpon>
@@ -81,6 +98,13 @@
     </Compile>
     <Compile Include="Paginas\documentos\sisact_declaracion_conocimiento.aspx.designer.cs">
       <DependentUpon>sisact_declaracion_conocimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\documentos\sisact_pop_sustento_ingreso.aspx.cs">
+      <DependentUpon>sisact_pop_sustento_ingreso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\documentos\sisact_pop_sustento_ingreso.aspx.designer.cs">
+      <DependentUpon>sisact_pop_sustento_ingreso.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

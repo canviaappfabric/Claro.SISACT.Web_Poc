@@ -1,9 +1,6 @@
 ﻿using Claro.SISACT.Common;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Web;
+
 
 namespace Claro.SISACT.Web_Poc.Base
 {
@@ -13,7 +10,7 @@ namespace Claro.SISACT.Web_Poc.Base
         protected override void OnInit(EventArgs e)
         {
             var childPage = this.GetType().UnderlyingSystemType;
-            Constantes.nombrePagina = childPage.ToString();
+            Constantes.NombrePagina = childPage;
 
         }
     }
